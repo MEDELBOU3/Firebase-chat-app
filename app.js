@@ -22,13 +22,13 @@
         } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
         const firebaseConfig = {
-            apiKey: "AIzaSyB8zBPJkyeKfmdFaW9PJzqkoyZsBYO9kzo",
-            authDomain: "sm-music-ca8a9.firebaseapp.com",
-            projectId: "sm-music-ca8a9",
-            storageBucket: "sm-music-ca8a9.firebasestorage.app",
-            messagingSenderId: "273821857220",
-            appId: "1:273821857220:web:aa039e6d70149b15df2091",
-            measurementId: "G-EZBJ9T6CMB"
+             apiKey: "AIzaSyB8zBPJkyeKfmdFaW9PJzqkoyZsBYO9kzo",
+             authDomain: "sm-music-ca8a9.firebaseapp.com",
+             projectId: "sm-music-ca8a9",
+             storageBucket: "sm-music-ca8a9.firebasestorage.app",
+             messagingSenderId: "273821857220",
+             appId: "1:273821857220:web:aa039e6d70149b15df2091",
+             measurementId: "G-EZBJ9T6CMB"
         };
 
         const app = initializeApp(firebaseConfig);
