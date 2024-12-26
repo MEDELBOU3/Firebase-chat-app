@@ -269,20 +269,7 @@
     </style>
 </head>
 <body>
-    <div id="auth" class="auth-container">
-        <form id="authForm" onsubmit="return false;">
-            <h2 id="authTitle">Login to Chat</h2>
-            <input type="text" id="displayName" placeholder="Display Name" style="display: none;">
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="password" id="password" placeholder="Password" required>
-            <button type="submit" id="authSubmitBtn">Login</button>
-            <div id="authError" class="error-message"></div>
-            <div class="auth-toggle" id="authToggle">
-                Don't have an account? Sign up
-            </div>
-        </form>
-    </div>
-
+   
     <div id="chat" class="container" style="display: none;">
         <div class="sidebar">
             <div class="header">
@@ -320,6 +307,5 @@
         </div>
     </div>
 
-    <script type="module" scr="app.js"></script>
 </body>
 </html>
